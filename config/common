@@ -62,7 +62,7 @@ LH_DEBCONF_PRIORITY="critical"
 
 # $LH_INITRAMFS: set initramfs hook
 # (Default: live-initramfs)
-LH_INITRAMFS="live-initramfs"
+LH_INITRAMFS="auto"
 
 # $LH_FDISK: set fdisk program
 # (Default: autodetected)
@@ -119,5 +119,5 @@ LH_QUIET="disabled"
 #LH_VERBOSE="disabled"
 
 # Internal stuff (FIXME)
-APT_OPTIONS="--yes"
-APTITUDE_OPTIONS="--assume-yes"
+APT_OPTIONS="-y"
+APTITUDE_OPTIONS="-y"
