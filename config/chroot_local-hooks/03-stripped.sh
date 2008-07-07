@@ -10,13 +10,13 @@
 set -e
 
 # Removing unused packages
-for PACKAGE in apt-utils aptitude man-db manpages info wget dselect
-do
-	if ! apt-get remove --purge --yes "${PACKAGE}"
-	then
-		echo "WARNING: ${PACKAGE} isn't installed"
-	fi
-done
+# for PACKAGE in apt-utils aptitude man-db manpages info wget dselect
+# do
+# 	if ! apt-get remove --purge --yes "${PACKAGE}"
+# 	then
+# 		echo "WARNING: ${PACKAGE} isn't installed"
+# 	fi
+# done
 
 apt-get autoremove --yes || true
 
