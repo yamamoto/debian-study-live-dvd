@@ -14,11 +14,11 @@ LH_BINARY_INDICES="enabled"
 
 # $LH_BOOTAPPEND_LIVE: set boot parameters
 # (Default: empty)
-LH_BOOTAPPEND_LIVE="locale=ja_JP.UTF-8 keyb=jp106 quiet nosplash"
+LH_BOOTAPPEND_LIVE="locale=ja_JP.UTF-8 keyb=jp106 quiet vga=791 splash"
 
 # $LH_BOOTAPPEND_INSTALL: set boot parameters
 # (Default: empty)
-LH_BOOTAPPEND_INSTALL="-- locale=ja_JP.UTF-8 keyb=jp106"
+LH_BOOTAPPEND_INSTALL=""
 
 # $LH_BOOTLOADER: set bootloader
 # (Default: syslinux)
