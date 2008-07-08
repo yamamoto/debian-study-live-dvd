@@ -45,7 +45,7 @@ chmod 640 /var/lib/apt/lists/lock
 rm -rf /var/cache/apt
 mkdir -p /var/cache/apt/archives/partial
 touch /var/cache/apt/archives/lock
-chmo 640 /var/cache/apt/archives/lock
+chmod 640 /var/cache/apt/archives/lock
 
 # Truncating logs
 for FILE in $(find /var/log/ -type f)
