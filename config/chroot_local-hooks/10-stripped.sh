@@ -38,14 +38,10 @@ find . -name *~ | xargs rm -f
 # Cleaning apt lists
 rm -rf /var/lib/apt/lists
 mkdir -p /var/lib/apt/lists/partial
-touch /var/lib/apt/lists/lock
-chmod 640 /var/lib/apt/lists/lock
 
 # Cleaning apt cache
 rm -rf /var/cache/apt
 mkdir -p /var/cache/apt/archives/partial
-touch /var/cache/apt/archives/lock
-chmod 640 /var/cache/apt/archives/lock
 
 # Truncating logs
 for FILE in $(find /var/log/ -type f)

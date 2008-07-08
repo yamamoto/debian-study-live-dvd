@@ -30,7 +30,7 @@ LH_LANGUAGE="ja"
 
 # $LH_LINUX_FLAVOURS: set kernel flavour to use
 # (Default: autodetected)
-LH_LINUX_FLAVOURS="486 686"
+LH_LINUX_FLAVOURS="686"
 
 # $LH_LINUX_PACKAGES: set kernel packages to use
 # (Default: autodetected)

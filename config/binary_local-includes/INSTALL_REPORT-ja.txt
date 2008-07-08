@@ -1,0 +1,67 @@
+http://d-i.alioth.debian.org/manual/ja.i386/ch05s03.html#submit-bug
+からの抜粋です。
+
+
+5.3.7. インストールレポートの送信
+
+　まだ問題がある場合には、インストールレポートをお送りください。また、
+インストールが成功したときのインストールレポートもお送りください。そう
+すると、たくさんのハードウェア設定情報を手に入れることができます。
+
+　あなたのインストールレポートは、Debian バグ追跡システム (BTS) で公開
+され、公開メーリングリストに転送されることに留意してください。必ず、公
+開されても問題ない e-mail アドレスを使用してください。
+
+　動作する Debian システムがある場合、インストールレポートを送る最も簡
+単な方法は以下のようになります。installation-report と reportbug パッケー
+ジをインストール (aptitude install installation-report reportbug) し、
+項8.5.2. 「システムの外に電子メールを送る[1]」 で説明しているように
+reportbug を設定して、reportbug installation-reports を実行してください。
+
+ [1]http://d-i.alioth.debian.org/manual/ja.i386/ch08s05.html#mail-outgoing
+
+　その他、インストールレポートを記入する際には、以下のテンプレートも使
+用できます。そのファイルを、installation-reports 疑似パッケージのバグ報
+告として、<submit@bugs.debian.org> 宛にお送りください。
+
+----------------------------------------------------------------------
+Package: installation-reports
+
+
+Boot method: <インストーラの起動方法は? CD? フロッピー? ネットワーク?>
+Image version: <イメージをダウンロードした URL がベスト>
+Date: <インストールした日時>
+
+Machine: <マシンの説明 (例 IBM Thinkpad R32)>
+Processor:
+Memory:
+Root Device: <IDE?  SCSI?  デバイス名は?>
+Partitions: <df -Tl の結果; 優先される生のパーティションテーブル>
+
+Output of lspci -nn and lspci -vnn:
+
+Base System Installation Checklist:
+[O] = OK, [E] = Error (please elaborate below), [ ] = didn't try it
+
+Initial boot:           [ ]
+Detect network card:    [ ]
+Configure network:      [ ]
+Detect CD:              [ ]
+Load installer modules: [ ]
+Detect hard drives:     [ ]
+Partition hard drives:  [ ]
+Install base system:    [ ]
+Clock/timezone setup:   [ ]
+User/password setup:    [ ]
+Install tasks:          [ ]
+Install boot loader:    [ ]
+Overall install:        [ ]
+
+Comments/Problems:
+
+<簡単なインストールの説明、初期インストールの考察、コメント、アイデアなど>
+----------------------------------------------------------------------
+
+　バグ報告の際には、カーネルがハングした直前に表示されたカーネルメッセー
+ジを添えて、何が問題なのかを説明してください。また、問題が起きるまでに
+システムに対して行ったことも記述してください。
