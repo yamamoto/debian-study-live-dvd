@@ -4,14 +4,14 @@ iceweasel-l10n-ja
 jfbterm
 lv
 manpages-ja
+nkf
 openoffice.org-help-ja
 openoffice.org-l10n-ja
 ttf-sazanami-gothic
 ttf-sazanami-mincho
 ttf-vlgothic
-unifont
-uim-gtk2.0
 uim-anthy
 uim-applet-gnome
-uim-qt
+uim-gtk2.0
 uim-xim
+unifont
