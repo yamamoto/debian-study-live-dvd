@@ -9,11 +9,9 @@ openoffice.org-l10n-ja
 ttf-sazanami-gothic
 ttf-sazanami-mincho
 ttf-vlgothic
+unifont
+uim-gtk2.0
 uim-anthy
 uim-applet-gnome
-uim-common
-uim-gtk2.0
 uim-qt
-uim-qt3
-uim-utils
-unifont
+uim-xim

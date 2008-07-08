@@ -12,7 +12,8 @@ build:
 
 clean:
 	sudo lh_clean
-	sudo rm *.iso *.list *.packages
+	sudo rm -f *.iso *.list *.packages
 
 distclean: clean
 	sudo rm -rf cache/	
+	rm -f log.*
