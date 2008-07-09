@@ -1,0 +1,8 @@
+log.*
+cache/
+chroot/
+binary/
+*.iso
+*.list
+*.packages
+.stage/
