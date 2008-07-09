@@ -3,6 +3,7 @@ acpi-support
 acpid
 bluez-gnome
 cpufrequtils
+disk-manager
 gnome-randr-applet
 grandr
 hardinfo
@@ -12,4 +13,5 @@ network-manager-gnome
 pcmciautils
 splashy
 splashy-themes
+squashfs-tools
 wireless-tools

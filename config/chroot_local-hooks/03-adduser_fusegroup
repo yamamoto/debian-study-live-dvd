@@ -1,0 +1,3 @@
+#!/bin/sh
+# adduser ${LH_USERNAME} fuse
+adduser user fuse

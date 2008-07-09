@@ -1,6 +1,9 @@
-gimp
-gstreamer0.10-plugins-bad
-gstreamer0.10-ffmpeg
+effectv
 ffmpeg
-mplayer
+gimp
+gstreamer0.10-ffmpeg
+gstreamer0.10-plugins-bad
 inkscape
+mplayer
+totem-gstreamer
+totem-plugins
