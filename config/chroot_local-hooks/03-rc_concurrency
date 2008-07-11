@@ -1,0 +1,3 @@
+#!/bin/sh
+sed -i "s/^CONCURRENCY=none/CONCURRENCY=shell/" /etc/init.d/rc
+/usr/sbin/update-bootsystem-insserv
