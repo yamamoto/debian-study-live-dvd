@@ -13,5 +13,7 @@ network-manager-gnome
 pcmciautils
 splashy
 splashy-themes
-squashfs-tools
 wireless-tools
+gnome-network-admin
+gnome-system-tools
+gnome-accessibility

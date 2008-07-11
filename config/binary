@@ -22,7 +22,7 @@ LH_BOOTAPPEND_INSTALL=""
 
 # $LH_BOOTLOADER: set bootloader
 # (Default: syslinux)
-LH_BOOTLOADER="syslinux"
+LH_BOOTLOADER="grub"
 
 # $LH_CHECKSUMS: set checksums
 # (Default: enabled)

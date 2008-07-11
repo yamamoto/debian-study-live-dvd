@@ -1,0 +1,78 @@
+default 0
+color cyan/blue white/blue
+foreground  = ffffff
+background  = 999999
+splashimage /boot/grub/splash.xpm.gz
+# jp106 keymap
+setkey doublequote at
+setkey ampersand caret
+setkey quote ampersand
+setkey parenleft asterisk
+setkey parenright parenleft
+setkey tilde parenright
+setkey equal underscore
+setkey plus colon
+setkey colon quote
+setkey asterisk doublequote
+setkey bracketleft bracketright
+setkey braceleft braceright
+setkey bracketright backslash
+setkey braceright bar
+setkey backslash equal
+setkey underscore plus
+setkey backslash bracketleft
+setkey bar braceleft
+setkey F9 equal
+setkey F10 bracketleft
+setkey equal k73
+setkey bracketleft k7d
+
+
+title		Debian Live
+kernel		/live/vmlinuz-2.6.24-1-686 boot=live union=aufs quiet vga=791 splash
+initrd		/live/initrd.img-2.6.24-1-686
+
+title		Debian Live (fail-safe mode)
+kernel		/live/vmlinuz-2.6.24-1-686 boot=live union=aufs noapic noapm nodma nomce nolapic nosmp vga=normal
+initrd		/live/initrd.img-2.6.24-1-686
+
+
+title		--------------------------------------------------
+root
+title		Debian Installer (GUI)
+kernel		/install/gtk/vmlinuz video=vesa:ywrap,mtrr vga=788 quiet
+initrd		/install/gtk/initrd.gz
+
+title		Debian Installer (console)
+kernel		/install/vmlinuz vga=normal quiet
+initrd		/install/initrd.gz
+
+title		Debian Installer (expert/GUI)
+kernel		/install/gtk/vmlinuz priority=low video=vesa:ywrap,mtrr vga=788 quiet
+initrd		/install/gtk/initrd.gz
+
+title		Debian Installer (expert)
+kernel		/install/vmlinuz priority=low vga=normal quiet
+initrd		/install/initrd.gz
+
+# title		Debian Installer (rescue/GUI)
+# kernel		/install/gtk/vmlinuz rescue/enable=true video=vesa:ywrap,mtrr vga=788
+# initrd		/install/gtk/initrd.gz
+
+# title		Debian Installer (rescue/console)
+# kernel		/install/vmlinuz rescue/enable=true vga=normal
+# initrd		/install/initrd.gz
+
+# title		Debian Installer (auto/console)
+# kernel		/install/vmlinuz auto=true priority=critical vga=normal quiet
+# initrd		/install/initrd.gz
+
+# title		Debian Installer (auto/GUI)
+# kernel		/install/gtk/vmlinuz auto=true priority=critical video=vesa:ywrap,mtrr vga=788 quiet
+# initrd		/install/gtk/initrd.gz
+
+title		--------------------------------------------------
+root
+
+title		memtest86+
+kernel		/live/memtest
