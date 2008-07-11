@@ -17,3 +17,6 @@ wireless-tools
 gnome-network-admin
 gnome-system-tools
 gnome-accessibility-themes
+grub
+atl2-modules-2.6-686
+gspca-modules-2.6-686
