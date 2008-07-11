@@ -29,11 +29,11 @@ setkey bracketleft k7d
 
 
 title		Debian Live
-kernel		/live/vmlinuz-2.6.24-1-686 boot=live union=aufs quiet vga=791 splash
+kernel		/live/vmlinuz-2.6.24-1-686 boot=live union=aufs quiet vga=791 splash locale=ja_JP.UTF-8 keyb=jp106 
 initrd		/live/initrd.img-2.6.24-1-686
 
 title		Debian Live (fail-safe mode)
-kernel		/live/vmlinuz-2.6.24-1-686 boot=live union=aufs noapic noapm nodma nomce nolapic nosmp vga=normal
+kernel		/live/vmlinuz-2.6.24-1-686 boot=live union=aufs noapic noapm nodma nomce nolapic nosmp vga=normal locale=ja_JP.UTF-8 keyb=jp106
 initrd		/live/initrd.img-2.6.24-1-686
 
 
