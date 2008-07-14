@@ -48,3 +48,6 @@ for FILE in $(find /var/log/ -type f)
 do
 	: > ${FILE}
 done
+
+# Cleaning /lib/init/rw/*
+rm -rf /lib/init/rw/*
