@@ -23,6 +23,6 @@ splashy-themes
 squashfs-tools
 wireless-tools
 xserver-xorg-input-vmmouse
-cupsys-driver-gutenprint
+cups-driver-gutenprint
 gutenprint-locales
 openprinting-ppds
