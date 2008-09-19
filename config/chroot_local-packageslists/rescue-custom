@@ -1,0 +1,241 @@
+# /usr/share/live-helper/lists/rescue - package list for live-helper(7)
+
+## LH: Rescue
+#include <standard>
+
+# Debian Forensics
+# http://qa.debian.org/developer.php?login=forensics-devel@lists.alioth.debian.org
+# if DISTRIBUTION sid
+ext3grep
+#endif
+# if DISTRIBUTION lenny
+galleta
+grokevt
+memdump
+missidentify
+myrescue
+pasco
+reglookup
+scrounge-ntfs
+ssdeep
+tableau-parm
+#endif
+wipe
+
+# System
+gnupg dash discover gawk grub htop less lilo ltrace psmisc screen strace units
+
+#if ARCHITECTURE i386
+pstack
+#endif
+
+# Editors
+aview mc nano-tiny qemacs-nox mg vim wdiff hexedit
+
+# Harddisk
+dvd+rw-tools genisoimage sdparm hdparm blktool parted partimage secure-delete scsitools smartmontools testdisk wodim wipe hddtemp
+
+# System
+dmidecode lshw
+# lsusb 
+pciutils procinfo usbutils mcelog
+
+#if ARCHITECTURE i386 powerpc
+read-edid
+#endif
+
+#if DISTRIBUTION etch
+sysutils
+#endif
+
+# Browser
+lynx links2 w3m
+
+# Compression
+arj bzip2 lzma p7zip-full unace unrar-free unzip zip
+
+#if CATEGORIES non-free
+rar unrar
+#endif
+
+# Backup
+dar gddrescue dump
+
+# General
+chrootuid
+cpio
+cryptcat
+directvnc
+etherwake
+ftp
+ifenslave-2.6
+ifrename
+ethtool
+ipcalc
+mailx
+mii-diag
+minicom
+netcat
+netcat6
+netmask
+openntpd
+openssl
+openvpn
+sipcalc
+socat
+ssh
+telnet
+
+# Firewalling
+denyhosts
+fail2ban
+iptables
+knockd
+portsentry
+vlan
+zorp
+
+#if DISTRIBUTION etch
+reaim
+#endif
+
+# Bridging
+bridge-utils
+ebtables
+parprouted
+
+# Routing
+cutter
+iproute
+iproute-doc
+iputils-tracepath
+mrt
+mtr-tiny
+tcptraceroute
+#####traceproto
+traceroute
+spinner
+
+# Monitoring
+arpalert
+arpwatch
+atsar
+bmon
+ethstatus
+ettercap
+geoip-bin
+hp-search-mac
+icmpinfo
+ifstat
+iftop
+ipgrab
+iptstate
+iptraf
+lft
+nast
+nbtscan
+netdiscover
+nload
+nsca
+nstreams
+ntop
+saidar
+samhain
+scanssh
+sntop
+ssldump
+tcpdump
+tcpreen
+tcpreplay
+tshark
+
+# Testing
+crashme
+dbench
+doscan
+dsniff
+fragrouter
+honeyd
+hping3
+icmpush
+macchanger
+medusa
+ndiff
+netdiag
+netpipe-tcp
+nmap
+ndisc6
+ngrep
+p0f
+packit
+paketto
+sing
+xprobe
+
+# Log Analizers
+fwanalog
+fwlogwatch
+lwatch
+multitail
+
+# Net Analizers
+httping
+arping
+dnstracer
+netselect
+
+# FS tools
+reiserfsprogs
+squashfs-tools
+sshfs
+sysfsutils
+udftools
+#if DISTRIBUTION etch
+unionfs-tools
+#endif
+xfsdump
+xfsprogs
+#if DISTRIBUTION sid
+btrfs-tools
+#endif
+cryptsetup
+dmraid
+dosfstools
+e2fsprogs
+fuse-utils
+hfsplus
+hfsutils
+jfsutils
+lde
+lsscsi
+lvm2
+mdadm
+mtools
+nilfs2-tools
+ntfs-3g
+ntfsprogs
+reiser4progs
+
+# unsorted
+hwinfo x86info cpuid
+tofrodos rpncalc
+hal
+dc
+rlwrap
+posh
+chkrootkit
+
+rkhunter
+clamav
+clamav-data
+smbclient
+nfs-common
+wireless-tools
+
+aide
+tripwire
+sleuthkit
+
+rsync
+ncftp
+rpm

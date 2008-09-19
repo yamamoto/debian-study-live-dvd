@@ -25,7 +25,7 @@ LH_APT_PIPELINE=""
 LH_APT_RECOMMENDS="enabled"
 
 # $LH_APT_SECURE: set apt/aptitude security
-# (Default: enabled)
+# (Default: disabled)
 LH_APT_SECURE="disabled"
 
 # $LH_BOOTSTRAP: set bootstrap program
@@ -62,7 +62,7 @@ LH_DEBCONF_PRIORITY="critical"
 
 # $LH_INITRAMFS: set initramfs hook
 # (Default: live-initramfs)
-LH_INITRAMFS="auto"
+LH_INITRAMFS="live-initramfs"
 
 # $LH_FDISK: set fdisk program
 # (Default: autodetected)

@@ -28,13 +28,21 @@ setkey equal k73
 setkey bracketleft k7d
 
 
-title		Debian Live
-kernel		/live/vmlinuz-2.6.25-2-686 boot=live union=aufs quiet video=vesa:ywrap,mtrr vga=788 splash locale=ja_JP.UTF-8 keyb=jp106 
-initrd		/live/initrd.img-2.6.25-2-686
+title		Debian Live-686
+kernel		/live/vmlinuz-2.6.26-1-686 boot=live union=aufs quiet video=vesa:ywrap,mtrr vga=788 splash locale=ja_JP.UTF-8 keyb=jp106 
+initrd		/live/initrd.img-2.6.26-1-686
 
-title		Debian Live (fail-safe mode)
-kernel		/live/vmlinuz-2.6.25-2-686 boot=live union=aufs noapic noapm nodma nomce nolapic nosmp vga=normal locale=ja_JP.UTF-8 keyb=jp106
-initrd		/live/initrd.img-2.6.25-2-686
+title		Debian Live-686 (fail-safe mode)
+kernel		/live/vmlinuz-2.6.26-1-686 boot=live union=aufs noapic noapm nodma nomce nolapic nosmp vga=normal locale=ja_JP.UTF-8 keyb=jp106
+initrd		/live/initrd.img-2.6.26-1-686
+
+title		Debian Live-486
+kernel		/live/vmlinuz-2.6.26-1-486 boot=live union=aufs quiet video=vesa:ywrap,mtrr vga=788 splash locale=ja_JP.UTF-8 keyb=jp106 
+initrd		/live/initrd.img-2.6.26-1-486
+
+title		Debian Live-486 (fail-safe mode)
+kernel		/live/vmlinuz-2.6.26-1-486 boot=live union=aufs noapic noapm nodma nomce nolapic nosmp vga=normal locale=ja_JP.UTF-8 keyb=jp106
+initrd		/live/initrd.img-2.6.26-1-486
 
 
 title		--------------------------------------------------
