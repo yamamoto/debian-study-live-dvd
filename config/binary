@@ -37,11 +37,15 @@ LH_CHROOT_BUILD="enabled"
 # (Default: businesscard)
 LH_DEBIAN_INSTALLER="businesscard"
 
-# $LH_DEBIAN_INSTALLER_DAILY: set daily images
-# (Default: disabled)
-LH_DEBIAN_INSTALLER_DAILY="disabled"
+# $LH_DEBIAN_INSTALLER_DISTRIBUTION: set debian-installer suite
+# (Default: empty)
+LH_DEBIAN_INSTALLER_DISTRIBUTION="lenny"
 
-# $LH_ENCRYPTION: set encrytion
+# $LH_DEBIAN_INSTALLER_PRESEEDFILE: set debian-installer preseed filename/url
+# (Default: )
+LH_DEBIAN_INSTALLER_PRESEEDFILE=""
+
+# $LH_ENCRYPTION: set encryption
 # (Default: disabled)
 LH_ENCRYPTION="disabled"
 
@@ -76,6 +80,10 @@ LH_JFFS2_ERASEBLOCK=""
 # $LH_MEMTEST: set memtest
 # (Default: memtest86+)
 LH_MEMTEST="memtest86+"
+
+# $LH_WIN32_LOADER: set win32-loader
+# (Default: enabled)
+LH_WIN32_LOADER="enabled"
 
 # $LH_NET_ROOT_FILESYSTEM: set netboot filesystem
 # (Default: nfs)

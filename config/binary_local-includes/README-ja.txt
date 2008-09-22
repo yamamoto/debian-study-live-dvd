@@ -6,7 +6,7 @@
 
 ======================================================================
 
-　このDVDはlive-helper[1]を使い、関西Debian勉強会が制作したDebian
+　このDVDはlive-helper[1]を使い、Debian JP Projectが制作したDebian
 Live(lenny)とDebianインストーラ(lenny/businesscard)のハイブリッド
 DVDです。
 
@@ -41,12 +41,13 @@ DVDです。
 
 ======================================================================
 
+Debian JP Project
+http://www.debian.or.jp/
+東京エリアDebian勉強会
+http://tokyodebian.alioth.debian.org/
 関西Debian勉強会
 http://wiki.debian.org/KansaiDebianMeeting
 
-Debian Live作成
-のがたじゅん <nogajun@gmail.com>
-
-2008/07/08
+2008/09/20
 
 ======================================================================
