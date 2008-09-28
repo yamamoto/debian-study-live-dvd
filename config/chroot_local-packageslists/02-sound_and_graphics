@@ -1,7 +1,5 @@
 cheese
 ffmpeg
-flashplugin-nonfree
-flashplugin-nonfree-extrasound
 gimp
 gstreamer0.10-ffmpeg
 gstreamer0.10-plugins-bad
@@ -11,6 +9,5 @@ inkscape
 mplayer
 totem-gstreamer
 totem-plugins
-w32codecs
 xmms2
 xmms2-plugin-all
